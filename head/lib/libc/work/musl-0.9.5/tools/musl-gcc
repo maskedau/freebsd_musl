@@ -1,0 +1,2 @@
+#!/bin/sh
+exec gcc "$@" -specs "/usr/lib/musl-gcc.specs"
